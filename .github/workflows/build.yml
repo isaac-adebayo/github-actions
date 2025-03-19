@@ -9,7 +9,6 @@ jobs:
       - run: npm --version
       - run: npm install
       - run: node app.js
-      - run: docker --version
       - run: git --version
       - run: python3 --version
 
