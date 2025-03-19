@@ -4,11 +4,14 @@ jobs:
     runs-on: ubuntu-latest
     container: node:16
     steps:
+      - uses: actions/checkout@v4
       - run: node --version
       - run: npm --version
-      - uses: actions/checkout@v4
       - run: npm install
       - run: node app.js
+      - run: docker --version
+      - run: git --version
+      - run: python3 --version
 
 
 
