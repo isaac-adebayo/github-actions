@@ -1,14 +1,11 @@
 name: GA Demo CI Pipeline
-
 on: 
   push:
     branch:
       - main
-      
 jobs:
   integrate:
     runs-on: ubuntu-latest
-
     steps:
       # step 1: Checkout the repo
       - name: Checkout code
@@ -18,22 +15,18 @@ jobs:
       - name: Install node package manager
         run: npm install
 
-      # Step 3: Run the application
-      - name: Run the node application
-        run: node app.js
-      
-      # Step 4: Log in to Dockerhub
+      # Step 3: Log in to Dockerhub
       - name: Login to the Dockerhub
         uses: docker/login-action@v3
         with: 
             username: ${{ secrets.DOCKER_HUB_USERNAME }}
             password: ${{ secrets.DOCKER_HUB_TOKEN }}
 
-      # Step 5: Build the Docker image
+      # Step 4: Build the Docker image
       - name: Build Docker Image
         run: docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/ga-nodejs:v3 .
 
-      # Step 6: Push the Docker image to Docker Hub
+      # Step 5: Push the Docker image to Docker Hub
       - name: Push Docker image 
         run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/ga-nodejs:v3
 
