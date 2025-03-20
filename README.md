@@ -19,7 +19,7 @@
      ```
      git pull origin main
      ```
-2. ### Created a Simple Node.js Application
+2. #### Created a Simple Node.js Application
    - Initialized a Node.js project (Node.js, npm and Expressjs installed)
    ```
    npm init -y
@@ -41,14 +41,37 @@
     console.log(`Server running on http://localhost:${PORT}`);
    });
    ```
-- Tested the code at 'http://localhost:8080' and ensured the projet was working porperly
+   - Tested the code at 'http://localhost:8080' and ensured the projet was working porperly
   ```
   node app.js
   ```
-  ` Commited the code changes and push the code this Github [repository](https://github.com/isaac-adebayo/github-actions)
+   - Commited the code changes and push the code this Github [repository](https://github.com/isaac-adebayo/github-actions)
   ```
   git add .
   git commit -m "modified app.js file"
   git push -u origin main
   ```
+3. #### Created a Github Action Workflow
+
+   - Created a '**.github/workflow**' directory in the local repository
+     ```
+     mkdir ./.github/workflow -p
+     ```
+   - Added a workflow file '[**build.yml**](https://github.com/isaac-adebayo/github-actions/blob/main/.github/workflows/build.yml)' file in '**.github/workflow**' directory
+     
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
    
