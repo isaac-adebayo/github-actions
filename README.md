@@ -49,7 +49,7 @@
      npm install --save-dev jest
      npm test
      ```
-   - Logded in to Docker Hub and pushed the application to [Docker Hub](https://hub.docker.com/repository/docker/isaacreg/ga-nodejs/general), used "docker/login-action@v3" action
+   - Logded in to Docker Hub and pushed the application to [Docker Hub](https://hub.docker.com/repository/docker/isaacreg/ga-nodejs/general), used "**docker/login-action@v3**" action
       
      
 
