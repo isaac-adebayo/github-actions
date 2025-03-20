@@ -1,4 +1,4 @@
-# Practical Implementation of Github Action Continous Integration (CI)
+### Practical Implementation of Github Action Continous Integration (CI)
 ### Setting Up the Project:
 
 1. #### Initialize a Github Repository
@@ -17,5 +17,38 @@
    ```
    - Synced the remote repository with the local repository
      ```
-     git pull
+     git pull origin main
      ```
+2. ### Created a Simple Node.js Application
+   - Initialized a Node.js project (Node.js, npm and Expressjs installed)
+   ```
+   npm init -y
+   ```
+   - Created a 'app.js' file containing below code:
+   ```
+   const express = require('express');
+   const app = express();
+
+   const PORT = 8080;
+
+   // Define a route for the root URL "/"
+   app.get('/', (req, res) => {
+    res.send('<h3>Hello World</h3><p>This test page tests Github Action CI');
+   });
+
+   // Start the server
+   app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+   });
+   ```
+- Tested the code at 'http://localhost:8080' and ensured the projet was working porperly
+  ```
+  node app.js
+  ```
+  ` Commited the code changes and push the code this Github [repository](https://github.com/isaac-adebayo/github-actions)
+  ```
+  git add .
+  git commit -m "modified app.js file"
+  git push -u origin main
+  ```
+   
