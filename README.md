@@ -1,4 +1,4 @@
-### Practical Implementation of Github Action Continous Integration (CI)
+## Practical Implementation of Github Action Continous Integration (CI)
 ### Setting Up the Project:
 
 1. #### Initialize a Github Repository
