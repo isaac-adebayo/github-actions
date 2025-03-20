@@ -15,6 +15,11 @@ jobs:
       - name: Install node package manager
         run: npm install
 
+      # Srep 3: Test the application
+      - name: Run test on the application
+        run: npm install --save-dev jest
+        run: npm test
+
       # Step 3: Log in to Dockerhub
       - name: Login to the Dockerhub
         uses: docker/login-action@v3
