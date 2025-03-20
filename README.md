@@ -2,9 +2,9 @@
 
 ### _In this project, Github Actions was used to automate the processes of build, test and deployment to Docker Hub a simple node.js application running on port 3000 to display a simple text on the web browser._ 
 
-### Setting Up the Project:
+### Project Set Up:
 
-1. ### Initialize a Github Repository
+1. ### Initialized a Github Repository
 
    - Created this [repository](https://github.com/isaac-adebayo/github-actions) on Github
      
