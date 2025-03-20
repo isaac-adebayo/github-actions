@@ -21,17 +21,17 @@ jobs:
           npm install --save-dev jest
           npm test
 
-      # Step 3: Log in to Dockerhub
+      # Step 4: Log in to Dockerhub
       - name: Login to the Dockerhub
         uses: docker/login-action@v3
         with: 
             username: ${{ secrets.DOCKER_HUB_USERNAME }}
             password: ${{ secrets.DOCKER_HUB_TOKEN }}
 
-      # Step 4: Build the Docker image
+      # Step 5: Build the Docker image
       - name: Build Docker Image
         run: docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/ga-nodejs:v3 .
 
-      # Step 5: Push the Docker image to Docker Hub
+      # Step 6: Push the Docker image to Docker Hub
       - name: Push Docker image 
         run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/ga-nodejs:v3
