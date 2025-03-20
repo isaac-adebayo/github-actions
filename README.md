@@ -37,11 +37,13 @@
      ```
 3. #### Created a Github Action Workflow
 
-   - Created a '**.github/workflow**' directory in the local repository
+   - Created a '**.github/workflows**' directory in the local repository
      ```
-     mkdir ./.github/workflow -p
+     mkdir ./.github/workflows -p
      ```
    - Added a workflow file '[**build.yml**](https://github.com/isaac-adebayo/github-actions/blob/main/.github/workflows/build.yml)' file in '**.github/workflow**' directory
+
+4. ####
      
 
 
