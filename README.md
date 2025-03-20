@@ -1,7 +1,7 @@
 ## Practical Implementation of Github Action Continous Integration (CI)
 ### Setting Up the Project:
 
-1. #### Initialize a Github Repository
+1. ### Initialize a Github Repository
 
    - Created this [repository](https://github.com/isaac-adebayo/github-actions) on Github
      
@@ -19,7 +19,7 @@
      ```
      git pull origin main
      ```
-2. #### Created a Simple Node.js Application
+2. ### Created a Simple Node.js Application
    - Initialized a Node.js project (Node.js, npm and Expressjs installed)
      ```
      npm init -y
@@ -35,7 +35,7 @@
      git commit -m "modified app.js file"
      git push -u origin main
      ```
-3. #### Created a Github Action Workflow
+3. ### Created a Github Action Workflow
 
    - Created a '**.github/workflows**' directory in the local repository
      ```
@@ -43,7 +43,7 @@
      ```
    - Added a workflow file '[**build.yml**](https://github.com/isaac-adebayo/github-actions/blob/main/.github/workflows/build.yml)' file in '**.github/workflow**' directory
 
-4. #### Testing and Deployment
+4. ### Testing and Deployment
    - Installed jest and ran test command
      ```
      npm install --save-dev jest
