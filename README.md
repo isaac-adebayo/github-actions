@@ -44,16 +44,19 @@
    - Added a workflow file '[**build.yml**](https://github.com/isaac-adebayo/github-actions/blob/main/.github/workflows/build.yml)' file in '**.github/workflow**' directory
 
 4. ### Testing and Deployment
-   - Installed jest and ran test command
+   - Installed jest
      ```
      npm install --save-dev jest
-     npm test
      ```
    - Created a **'tests/'** directory in the repository
      ```
      mkdir tests/
      ```
    - Created [**app.test.js**](https://github.com/isaac-adebayo/github-actions/blob/main/tests/app.test.js) file in the **'tests/'** directory
+   - Ran test command
+     ```
+     npm test
+     ```
    - Logded in to Docker Hub and pushed the application to [Docker Hub](https://hub.docker.com/repository/docker/isaacreg/ga-nodejs/general), used "**docker/login-action@v3**" action
       
      
