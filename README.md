@@ -24,7 +24,7 @@
      ```
      npm init -y
      ```
-   - Created a '**[app.js](https://github.com/isaac-adebayo/github-actions/blob/main/app.js)**' file containing below code:
+   - Created a '**[app.js](https://github.com/isaac-adebayo/github-actions/blob/main/app.js)**' file in the directory
    - Tested the code at 'http://localhost:3000' and ensured the projet was working porperly
      ```
      node app.js
