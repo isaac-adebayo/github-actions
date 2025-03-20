@@ -25,9 +25,9 @@
      npm init -y
      ```
    - Created a '**[app.js](https://github.com/isaac-adebayo/github-actions/blob/main/app.js)**' file in the directory
-   - Tested the code at 'http://localhost:3000' and ensured the projet was working porperly
+   - Tested the code at 'http://localhost:3000' and ensured the projet worked properly
      ```
-     node app.js
+     npm start
      ```
    - Commited the code changes and push the code this Github [repository](https://github.com/isaac-adebayo/github-actions)
      ```
@@ -49,6 +49,11 @@
      npm install --save-dev jest
      npm test
      ```
+   - Created a **'tests'** directory in the repository
+     ```
+     mkdir ./tests/
+     ```
+   - Created [**app.test.js**](https://github.com/isaac-adebayo/github-actions/blob/main/tests/app.test.js)
    - Logded in to Docker Hub and pushed the application to [Docker Hub](https://hub.docker.com/repository/docker/isaacreg/ga-nodejs/general), used "**docker/login-action@v3**" action
       
      
