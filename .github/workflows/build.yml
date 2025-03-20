@@ -29,12 +29,3 @@ jobs:
       # Step 5: Push the Docker image to Docker Hub
       - name: Push Docker image 
         run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/ga-nodejs:v3
-
-
-
-
-
-
-
-
-
