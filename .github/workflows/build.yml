@@ -1,7 +1,7 @@
 name: GA Demo CI Pipeline
 on: 
   push:
-    branch:
+    branches:
       - main
 jobs:
   integrate:
@@ -17,8 +17,9 @@ jobs:
 
       # Srep 3: Test the application
       - name: Run test on the application
-        run: npm install --save-dev jest
-        run: npm test
+        run: |
+          npm install --save-dev jest
+          npm test
 
       # Step 3: Log in to Dockerhub
       - name: Login to the Dockerhub
