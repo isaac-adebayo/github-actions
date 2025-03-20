@@ -1,4 +1,7 @@
 ## Practical Implementation of Github Action Continous Integration (CI)
+
+### _This project involves using Github Action to automate the processes of build, test and deployment to Docker Hub a simple node.js application running on port 3000 to display a simple text on the web browser._ 
+
 ### Setting Up the Project:
 
 1. ### Initialize a Github Repository
