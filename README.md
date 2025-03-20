@@ -5,7 +5,7 @@
 
    - Created this [repository](https://github.com/isaac-adebayo/github-actions) on Github
      
-   - Created a project directory in the development environment and initialized git in the directory
+   - Created a project directory in the development environment and initialized git in the repository
       ```
       mkdir github-action && cd github-action
       git init -b main
