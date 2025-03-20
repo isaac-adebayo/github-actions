@@ -52,7 +52,7 @@
      ```
      mkdir tests/
      ```
-   - Created [**app.test.js**](https://github.com/isaac-adebayo/github-actions/blob/main/tests/app.test.js) file in the **'tests/'** directory
+   - Created [**app.test.js**](https://github.com/isaac-adebayo/github-actions/blob/main/tests/app.test.js) file in the **'tests/'** repository
    - Ran test command
      ```
      npm test
