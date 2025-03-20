@@ -49,11 +49,11 @@
      npm install --save-dev jest
      npm test
      ```
-   - Created a **'tests'** directory in the repository
+   - Created a **'tests/'** directory in the repository
      ```
-     mkdir ./tests/
+     mkdir tests/
      ```
-   - Created [**app.test.js**](https://github.com/isaac-adebayo/github-actions/blob/main/tests/app.test.js)
+   - Created [**app.test.js**](https://github.com/isaac-adebayo/github-actions/blob/main/tests/app.test.js) file in the **'tests/'** directory
    - Logded in to Docker Hub and pushed the application to [Docker Hub](https://hub.docker.com/repository/docker/isaacreg/ga-nodejs/general), used "**docker/login-action@v3**" action
       
      
